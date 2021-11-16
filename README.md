@@ -3,27 +3,28 @@ Open LodgifyHTML as a project to get started
 The following instructions use Bash, so make sure to install Git Bash before running the commands.
 
 1. Download Node.js from https://nodejs.org/es/download/ and then execute "$ npm run-script install-all". 
-2. You will need to start a local server to run tests, execute "npm run-script dev-server" in a different terminal, leave this terminal open
-3. To run your test, you should test files inside "webdriverio-tests/"testName".test.js" (where "testName" is the name of the test you're adding)
-4. Add the path of your test to "\LodgifyHTML\wdio.conf.js" inside specs just like the path for the demo test is located.
-5. Run the tests with $ npx wdio wdio.conf.js 
-6. You should be able to run and check tests results with these steps, now you can proceed with the requirements below, which you will also find in the Test file.
-7. You can create folders for selectors anywhere, the whole structure is up to you, try not to hardcode and create a clean test structure. 
+2. You will need to start a local server to run tests, execute "npm run dev-server" in a different terminal, leave this terminal open.
+3. To run your test, you should test files inside "cypress/integration/testName.test.js" (where "testName" is the name of the test you're adding).
+4. Run the tests with $ "npm run cy:run"
+5. You should be able to run and check tests results with these steps, now you can proceed with the requirements below, which you will also find in the Test file.
+6. You can create folders for selectors anywhere, the whole structure is up to you, try not to hardcode and create a clean test structure.
+7. Make sure to do smart waits in case slowness on services.
+8. Tests should be able to run on any environment.
 
 Quick start commands:
 ## Installing
 ```
-$ npm run-script install-all
+$ npm run install-all
 ```
 ## Starting mock up server (leave a terminal open for this command, and run the test in another terminal)
 ```
-$ npm run-script dev-server
+$ npm run dev-server
 
 Note: by default, server.js is using your port 8080, feel free to change it in case you're using it for something else, port 3000 would also be a good alternative. (node server/server.js)
 ```
 ## Execute Tests
 ```
-$ npx wdio wdio.conf.js 
+$ npm run cy:run
 ```
 
 Challengue Requirements:
