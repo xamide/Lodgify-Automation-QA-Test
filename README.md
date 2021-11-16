@@ -11,6 +11,13 @@ The following instructions use Bash, so make sure to install Git Bash before run
 7. Make sure to do smart waits in case slowness on services.
 8. Tests should be able to run on any environment.
 
+## How we'd like to receive the solution?
+
+Clone this repository and upload it as a new public repository in your GitHub account
+Create a new branch in your repository
+Create a pull request with the requested functionality to unchanged master branch in your repository
+Share link to the PR with us
+
 Quick start commands:
 ## Installing
 ```
