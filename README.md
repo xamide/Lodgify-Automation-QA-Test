@@ -2,8 +2,8 @@ Open LodgifyHTML as a project to get started
 
 The following instructions use Bash, so make sure to install Git Bash before running the commands.
 
-1. Download Node.js from https://nodejs.org/es/download/ and then execute "$ npm run-script install-all". 
-2. You will need to start a local server to run tests, execute "npm run dev-server" in a different terminal, leave this terminal open.
+1. Download Node.js from https://nodejs.org/es/download/ and then execute "$ npm run install-all". 
+2. You will need to start a local server to run tests, execute "$ npm run dev-server" in a different terminal, leave this terminal open.
 3. To run your test, you should test files inside "cypress/integration/testName.test.js" (where "testName" is the name of the test you're adding).
 4. Run the tests with $ "npm run cy:run"
 5. You should be able to run and check tests results with these steps, now you can proceed with the requirements below, which you will also find in the Test file.
