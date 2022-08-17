@@ -67,7 +67,7 @@ IMPORTANT NOTE: Some tests, if followed the requirements correctly, will fail. F
 
 ## Troubleshooting
 
-Using the provided steps, everything should work as explained, if not, make sure your Node.js is updated. In case you have any issues with Webdriver.io, you can always install another webframework like Express. In these cases, please also add extra information in the README. 
+Using the provided steps, everything should work as explained, if not, make sure your Node.js is updated. In case you have any issues with Cypress.io, you can always install another test framework. In these cases, please also add extra information in the README. 
 
 In case you change your configuration, make sure to change your package.json file to run accordingly to avoid any kind of troubles or incompatibilities.
 
