@@ -1,4 +1,4 @@
-Open LodgifyHTML as a project to get started
+Open Lodgify-Automation-QA-Test as a project to get started
 
 The following instructions use Bash, so make sure to install Git Bash before running the commands.
 
