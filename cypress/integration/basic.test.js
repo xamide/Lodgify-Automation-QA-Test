@@ -41,14 +41,14 @@ context('Lodgify contact page', () => {
   });
 
   it('Choosing dates from the date picker sets the correct date value', () => {
-      // click it to open the date picker
+      // clicks date picker form to open the date picker
       cy.get('.DateRangePickerInput > :nth-child(2)').as('setDate');
       cy.get('@setDate').click();
 
-      // give the date picker element an alias and click next month until it is April
+      // click next month until it is the required month
       cy.get('.DayPicker_transitionContainer')
 
-      // set the dates for the test
+      // set, then parse the arrival and departure dates for the test
       const arrival = new Date(2023, 4-1, 14)
       const departure = new Date(2023, 6-1, 14)
       const formArrDate = arrival.toLocaleDateString("en-GB", {
